@@ -1,0 +1,14 @@
+.index-wrap {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 94px;
+    z-index: 11;
+}
+.cars-item{
+    width: 505px;
+    height: 257px;
+    background-color: #fff;
+    border-radius: 24px;
+    @include webkit(box-shadow,0 0 18px 0 rgba(0,0,0,.2));
+}

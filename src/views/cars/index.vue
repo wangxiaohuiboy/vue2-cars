@@ -1,5 +1,13 @@
 <template>
   <div class="index-wrap">
+    <section class="cars-item">
+      <header>
+        <h4 class="cars-logo">
+          <img src="" alt="">
+          <span></span>
+        </h4>
+      </header>
+    </section>
     <span @click="user">汽车列表</span>
   </div>
 </template>
@@ -24,12 +32,6 @@ export default {
 };
 </script>
  
-<style lang = "scss" scoped>
-.index-wrap {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  top: 0;
-  z-index: 99;
-}
+<style lang = "scss">
+@import "./index.scss";
 </style>
